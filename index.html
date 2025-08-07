@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <title>LocalStorage Demo</title>
+</head>
+
+<body>
+    <h1> 💼Set and Get a Name</h1>
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="saveName(localStorage.setItem)">Save</button>
+    <button onclick="getName(localStorage.getItem)">Get</button>
+    <button onclick="clearStorage(localStorage.removeItem)">Clear</button>
+
+    <h2 id="output">output:<h2>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
