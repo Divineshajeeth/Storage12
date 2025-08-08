@@ -4,7 +4,6 @@ function saveName() {
 }
  function getName() {
     const saveData = localStorage.getItem( 'Name' )
-    console.log(saveData)
    document.getElementById( 'output' ).textContent=saveData;
 }
  function clearStorage() {
