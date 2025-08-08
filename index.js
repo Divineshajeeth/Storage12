@@ -5,8 +5,9 @@ function saveName() {
  function getName() {
     const saveData = localStorage.getItem( 'Name' )
     console.log(saveData)
-    const output = document.getElementById( 'output' );
+   document.getElementById( 'output' ).textContent=saveData;
 }
  function clearStorage() {
     localStorage.removeItem( 'Name' );
+    document.getElementById("output").textContent="no detail"
 }
